@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+// partials
+@import './partials/index';
+@import './partials/productos';
+@import './partials/pages';
+@import './partials/contacto';
+@import './partials/media';
+@import './partials/variables';
+
+body{
+    background-color: $color-gris;
+	display:grid;
+	grid-template-rows: auto 1fr auto;
+	grid-template-columns: 100%;
+	min-height: 100vh;
+}
+
+

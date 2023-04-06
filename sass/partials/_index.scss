@@ -1,0 +1,55 @@
+@import 'variables';
+// index.html
+main{
+    .flex-img{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 100px 50px;  
+        justify-content: space-between;
+        gap: 40px;
+            img{
+                max-width: 800px;
+                border: 1px solid;
+            }  
+    }
+    .flex-productos{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        margin: 0px 50px;
+        flex-wrap: nowrap;
+        border: 1px solid;
+        &__item{
+            width: 370px;
+            align-items: center;
+            text-align: center;
+            padding-bottom: 30px;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+            }
+            a:hover{  
+                color: $color-rosa;
+                font-size: 30px;
+            }
+        }
+    }
+    .flex-locales{
+        display: flex;   
+        background-color: white;
+        margin: 100px 50px;
+        flex-flow: row wrap;
+        padding: 50px;
+        justify-content: space-between;
+        align-items:center;
+        border: 1px solid;
+        &__item{
+            padding-bottom: 30px;
+            h3:hover{
+                color: $color-rosa;
+                font-size: 32px;
+            }
+        } 
+    }
+}

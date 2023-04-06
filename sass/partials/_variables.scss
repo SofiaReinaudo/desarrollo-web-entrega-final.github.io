@@ -1,0 +1,32 @@
+@mixin sizes($width, $height) {
+	height: $height;
+	width: $width;
+}
+
+@mixin margin-y($top, $bottom) {
+	margin-top: $top;
+	margin-bottom: $bottom;
+}
+
+@mixin margin-x($right, $left) {
+	margin-right: $right;
+	margin-left: $left;
+}
+
+@mixin padding-x($right, $left) {
+	padding-right: $right;
+	padding-left: $left;
+}
+
+// variables
+$color-rosa: rgb(249, 203, 203);
+$color-gris: rgb(224, 221, 221);
+
+// animaciones
+@keyframes movimiento {
+	33% {
+	transform: translateX(10px);
+	}
+	66% {
+	transform: translateX(-10px);
+	} }
