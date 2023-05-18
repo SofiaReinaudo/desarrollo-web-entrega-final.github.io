@@ -60,6 +60,17 @@ function compra2(){
 
 compra2();
 
+let descuento = prompt("Ingresa un cupón de descuento en caso de tenerlo:")
+
+if(descuento === "HEAVEN"){
+    let resultadoDescuento = (resultado * 20) / 100;
+    resultado -= resultadoDescuento;
+    alert("El resultado final de tu compra es de:" + resultado);
+
+}else{
+    alert("Ese cupón no es valido.");
+}
+
 function pago(){
     let metodo = prompt("¿Qué medio de pago utilizarás? Presiona 1 para efectivo, 2 para tarjeta de crédito y 3 para transferencias.");
 
@@ -82,3 +93,4 @@ function pago(){
 }
 
 pago()
+
