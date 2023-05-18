@@ -1,14 +1,14 @@
-alert("Bienvenido a la sección de contacto. Aquí puedes escribir tus datos personales para realizar una compra, o, consultar algo.")
+alert("Bienvenido a la sección de contacto. Aquí puedes escribir tus datos personales para realizar una compra, o, consultar algo.");
 
 edad = parseInt(prompt("Antes de continuar ingrese su edad. Se necesita ser mayor de 18 años para comprar."));
 
 if( edad >= 18){
-    alert("Sos mayor de 18 años! Puedes continuar.")
+    alert("Eres mayor de 18 años! Puedes continuar.");
 }
 else if( edad < 18){
-    alert("Sos menor de 18 años, no puedes continuar.")
+    alert("Eres menor de 18 años, no puedes continuar.");
 }
 else{
-    alert("Sólo se permiten números.")
+    alert("Sólo se permiten números.");
 }
 

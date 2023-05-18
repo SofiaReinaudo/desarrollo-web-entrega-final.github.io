@@ -3,7 +3,7 @@ alert("Llegaste a la sección de productos, esperamos que te gusten.");
 let resultado = 0;
 
 function compra(){
-    let prenda = prompt("Ingresa el nombre de la prenda elegida.")
+    let prenda = prompt("Ingresa el nombre de la prenda elegida.");
 
     if(prenda == "falda turia" || prenda == "Falda Turia" || prenda == "FALDA TURIA" ){
         resultado += 7099
@@ -42,7 +42,7 @@ function compra(){
         alert("añadiste a tu compra a Falda Nova. El precio total de tu compra es: $" + resultado + ".");
     }
     else{
-        alert ("Esa opción no existe.")
+        alert ("Esa opción no existe.");
     }
 }
 
